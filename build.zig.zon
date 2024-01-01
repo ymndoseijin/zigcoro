@@ -3,8 +3,14 @@
     .version = "0.0.0",
     .dependencies = .{
         .libxev = .{
-            .url = "https://api.github.com/repos/mitchellh/libxev/tarball/f06915",
-            .hash = "1220622831138efa0105981c34677a254894d33748cc0b2ff9694972ae3ec6408ce1",
+            .url = "https://api.github.com/repos/mitchellh/libxev/tarball/7eada43",
+            .hash = "1220be2c7b3f3a07b9150720140c7038f454a9ce0cbc5d303767c1e4a50856ec1b01",
         },
     },
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+
 }
